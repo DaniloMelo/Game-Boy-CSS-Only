@@ -1,0 +1,36 @@
+.controls{
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    width: 90%;
+}
+
+.cross-btn{
+    border: 1px solid #9e9cad;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset 5px 5px 10px rgb(177, 175, 189),
+                inset -5px -5px 10px rgb(177, 175, 189)
+}
+
+.cross-btn div{
+    background: rgb(21, 21, 21);
+    border-radius: 5px;
+    position: absolute;
+    width:65px;
+    height: 24px;
+    top: 27px;
+    left: 6px;
+}
+
+.cross-btn div:nth-child(1){
+    box-shadow: 2px 2px #000,
+                inset 0px 3px rgb(148, 148, 148)
+}
+
+.cross-btn div:nth-child(2){
+    transform: rotate(90deg);
+    box-shadow: 2px 0px 1px #000,
+                inset 3px 0px rgb(148, 148, 148)
+}
