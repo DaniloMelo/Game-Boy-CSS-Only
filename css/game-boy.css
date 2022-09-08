@@ -1,0 +1,14 @@
+.game-boy{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+    background: #d4d1e5;
+    border-radius: 10px 10px 60px 10px;
+    box-shadow: inset 5px 0px 10px #6a6875,
+                inset 10px 0 10px #ccc7e4,
+                inset -5px 0px 10px #6a6875,
+                inset -10px 0 10px #ccc7e4,
+                inset 0px -5px 10px #6a6875,
+                inset 0px -10px 10px #ccc7e4
+}
