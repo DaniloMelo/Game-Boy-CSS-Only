@@ -1,5 +1,5 @@
 .button-A-B{
-    border: 1px solid #9e9cad;
+    border: 1px solid rgb(158, 156, 173);
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #571034;
+    background: rgb(87, 16, 52);
     box-shadow: 2px 2px 3px rgb(57, 57, 57),
-                inset 2px 2px #af536c
+                inset 2px 2px rgb(175, 83, 108)
 }
 

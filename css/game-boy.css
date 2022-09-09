@@ -4,12 +4,13 @@
     align-items: center;
     width: 300px;
     height: 500px;
-    background: #d4d1e5;
+    position: relative;
+    background: rgb(212, 209, 229);
     border-radius: 10px 10px 60px 10px;
-    box-shadow: inset 5px 0px 10px #6a6875,
-                inset 10px 0 10px #ccc7e4,
-                inset -5px 0px 10px #6a6875,
-                inset -10px 0 10px #ccc7e4,
-                inset 0px -5px 10px #6a6875,
-                inset 0px -10px 10px #ccc7e4
+    box-shadow: inset 5px 0px 10px rgb(106, 104, 117),
+                inset 10px 0 10px rgb(204, 199, 228),
+                inset -5px 0px 10px rgb(106, 104, 117),
+                inset -10px 0 10px rgb(204, 199, 228),
+                inset 0px -5px 10px rgb(106, 104, 117),
+                inset 0px -10px 10px rgb(204, 199, 228)
 }

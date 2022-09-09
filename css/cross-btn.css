@@ -7,14 +7,14 @@
 }
 
 .cross-btn{
-    border: 1px solid #9e9cad;
+    border: 1px solid rgb(158, 156, 173);
     width: 90px;
     height: 90px;
     border-radius: 50%;
     position: relative;
     box-shadow: inset 5px 5px 10px rgb(183, 183, 206),
                 inset -5px -5px 10px rgb(177, 175, 189),
-                      0px 0px 0px  1px #dcdae9 
+                      0px 0px 0px  1px rgb(220, 218, 233) 
 }
 
 .cross-btn div{
@@ -28,12 +28,12 @@
 }
 
 .cross-btn div:nth-child(1){
-    box-shadow: 2px 2px #000,
+    box-shadow: 2px 2px rgb(0, 0, 0),
                 inset 0px 3px rgb(148, 148, 148)
 }
 
 .cross-btn div:nth-child(2){
     transform: rotate(90deg);
-    box-shadow: 2px 0px 1px #000,
+    box-shadow: 2px 0px 1px rgb(0, 0, 0),
                 inset 3px 0px rgb(148, 148, 148)
 }

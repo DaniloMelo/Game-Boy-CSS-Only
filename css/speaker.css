@@ -1,0 +1,20 @@
+.speaker{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: min-content;
+    bottom: 25px;
+    right: 10px;
+    transform: rotate(-25deg);
+}
+
+.speaker div{
+    width: 10px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 8px;
+    background: rgb(201, 199, 214);
+    box-shadow: inset -3px 0px 5px rgb(73, 72, 78),
+                inset 0px 5px 5px -2px rgb(73, 72, 78),
+                -1px 0 rgb(234, 231, 250)
+}
