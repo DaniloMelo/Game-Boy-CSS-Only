@@ -1,0 +1,33 @@
+.start-select{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 120px;
+    position: relative;
+    left: -10px
+}
+
+.start,
+.select{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #9e9cad;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-25deg);
+    box-shadow: inset 0px 2px 4px rgb(144, 141, 141);
+}
+
+.start div,
+.select div{
+    width: 45px;
+    height: 10px;
+    border-radius: 10px;
+    background: #50515a;
+    box-shadow: 0px 2px 3px -1px rgb(35, 35, 37),
+                inset 0px 2px 1px rgb(155, 155, 160)
+}
+
